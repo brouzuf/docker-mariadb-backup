@@ -1,10 +1,10 @@
 # tiredofit/mariadb-backup
 
-[![Build Status](https://img.shields.io/docker/build/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/tiredofit/mariadb-backup)
-[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
-[![Image Size](https://img.shields.io/microbadger/image-size/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/tiredofit/mariadb-backup)
+[![Build Status](https://img.shields.io/docker/build/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup)
+[![Docker Pulls](https://img.shields.io/docker/pulls/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup
+[![Docker Stars](https://img.shields.io/docker/stars/tiredofit/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup)
+[![Docker Layers](https://images.microbadger.com/badges/image/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/smartpage/mariadb-backup)
+[![Image Size](https://img.shields.io/microbadger/image-size/tiredofit/mariadb-backup.svg)](https://microbadger.com/images/smartpage/mariadb-backup)
 
 # Introduction
 
@@ -49,7 +49,7 @@ You must have a working MySQL server available for this to work properly, it doe
 
 # Installation
 
-Automated builds of the image are available on [Docker Hub](https://hub.docker.com/tiredofit/mariadb-backup) and is the recommended method of installation.
+Automated builds of the image are available on [Docker Hub](https://hub.docker.com/smartpage/mariadb-backup) and is the recommended method of installation.
 
 
 ```bash
