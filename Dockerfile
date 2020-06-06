@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM tiredofit/alpine:edge
 LABEL maintainer="brouzuf@gmail.com"
 
 ### Set Environment Variables
