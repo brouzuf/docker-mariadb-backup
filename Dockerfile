@@ -1,5 +1,5 @@
-FROM tiredofit/alpine:edge
-LABEL maintainer="Dave Conroy (dave at tiredofit dot ca)"
+FROM alpine:latest
+LABEL maintainer="brouzuf@gmail.com"
 
 ### Set Environment Variables
    ENV ENABLE_SMTP=FALSE
