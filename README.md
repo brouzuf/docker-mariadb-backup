@@ -1,10 +1,4 @@
-# tiredofit/mariadb-backup
-
-[![Build Status](https://img.shields.io/docker/build/smartpage/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup)
-[![Docker Pulls](https://img.shields.io/docker/pulls/smartpage/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup)
-[![Docker Stars](https://img.shields.io/docker/stars/smartpage/mariadb-backup.svg)](https://hub.docker.com/r/smartpage/mariadb-backup)
-[![Docker Layers](https://images.microbadger.com/badges/image/smartpage/mariadb-backup.svg)](https://microbadger.com/images/smartpage/mariadb-backup)
-[![Image Size](https://img.shields.io/microbadger/image-size/smartpage/mariadb-backup.svg)](https://microbadger.com/images/smartpage/mariadb-backup)
+# mariadb-backup
 
 # Introduction
 
