@@ -13,9 +13,9 @@ services:
       - MYSQL_PASSWORD=examplepassword
     restart: always
 
-  example-db-backup:
-    container_name: example-db-backup
-    image: tiredofit/mariadb-backup
+  db-backup:
+    container_name: db-backup
+    image: brouzuf/mariadbbackup
     links:
      - example-db
     volumes:
@@ -23,14 +23,14 @@ services:
     environment:
       - DB_SERVER=example-db
       - DB_NAME=example
-      - DB_USER=example
+      - DB_USER=root
       - DB_PASSWORD="examplepassword"
       - DB_DUMP_FREQ=1440
-      - DB_DUMP_BEGIN=0000
-      - DB_CLEANUP_TIME=8640
+      - DB_DUMP_BEGIN=0305
+      - DB_CLEANUP_TIME=40320
       - MD5=TRUE
       - COMPRESSION=XZ
-      - SPLIT_DB=FALSE
+      - SPLIT_DB=TRUE
 
     restart: always
 
