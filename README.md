@@ -1,5 +1,5 @@
 # mariadb-backup
-
+[![Known Vulnerabilities](https://snyk.io/test/github/brouzuf/docker-mariadb-backup/badge.svg?targetFile=Dockerfile)](https://snyk.io/test/github/brouzuf/docker-mariadb-backup?targetFile=Dockerfile)
 # Introduction
 
 This will build a container for backing up MySQL containers. 
