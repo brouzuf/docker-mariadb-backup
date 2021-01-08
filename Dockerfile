@@ -17,4 +17,3 @@ LABEL maintainer="brouzuf@gmail.com"
 
 ### Entrypoint Configuration  
    ENTRYPOINT ["/init"]
-
